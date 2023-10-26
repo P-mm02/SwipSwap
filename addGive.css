@@ -47,3 +47,7 @@
 .addDescription{
     border-color: #8BA2E0;
 }
+#navBar{
+    width: 100vw;
+    height: auto;
+}

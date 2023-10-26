@@ -42,3 +42,7 @@ body{
     color: transparent;
     
 }
+#navBar{
+    width: 100vw;
+    height: auto;
+}

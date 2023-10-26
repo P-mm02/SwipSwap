@@ -19,8 +19,8 @@
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <div class="navbar-nav ">
                 <a class="nav-item nav-link " href="/home.html">Home</a>
-                <a class="nav-item nav-link " href="/home.html">Swap</a>
-                <a class="nav-item nav-link " href="/home.html">Giveaway</a>
+                <a class="nav-item nav-link " href="/addSwap.html">Swap</a>
+                <a class="nav-item nav-link " href="/addGive.html">Giveaway</a>
                 <a class="navbar-brand" href="/home.html">
                     <img src="/img/img_home_02.png" alt="" class="img-fluid">
                 </a>
@@ -47,7 +47,7 @@
             <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">Product Name</label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Product Name">
-                <img src="/img/img_addSwap_06.png" alt="">
+                <img src="/img/img_addSwap_06.png" alt="" class="img-fluid">
             </div>
             <div class="mb-3">
                 <label for="inputState" class="form-label">Category</label>
@@ -61,51 +61,89 @@
             </div>
             
             <div class="row mb-3">
-                <label for="quantity" class="col-sm-1">Condition:</label>
-                <input type="number" id="condition" name="condition" min="1" max="100" value="1" class="col-sm-2">
-                <h3 class="col-sm-1">%</h3>
+                <label for="quantity" class="col-lg-1 ">Condition:</label>
+                <input type="number" id="condition" name="condition" min="1" max="100" value="1" class="col-lg-2 col-sm-2">
+                <h3 class="col-lg-1">%</h3>
             </div>
 
-            <div class="mb-3">
-                <label for="inputState" class="form-label">Interesting</label>
-                <select id="inputState" class="form-select">
-                    <option selected>Choose Interesting</option>
-                    <option>Category1</option>
-                    <option>Category2</option>
-                    <option>Category3</option>
-                    <option>Category4</option>
-                </select>
-            </div>
-
-            <div class="row mb-3">
-                <label for="colFormLabel" class="col-sm-1 col-form-label">Condition</label>
-                <div class="col-sm-4">
-                  <input type="email" class="form-control" id="colFormLabel" placeholder="0-100">
+            <span>Choose Interesting</span>
+            <div class="row" id="choseInterest">
+                <div class="chooseInterest form-check col-lg-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Category1
+                    </label>                    
                 </div>
-                <h3 class="col-sm-1">%</h3>
+                <div class="chooseInterest form-check col-lg-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Category2
+                    </label>
+                </div>
+                <div class="chooseInterest form-check col-lg-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Category3
+                    </label>
+                </div>
+                <div class="chooseInterest form-check col-lg-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Category4
+                    </label>
+                </div>
+                <div class="chooseInterest form-check col-lg-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Category5
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class="col-6">
+
             <div class="row">
-                <div class="col-6">
-                    <img src="/img/img_addSwap_05.png" alt="">                
+                <span class="col-lg-2">Shipment :</span>
+                <div class="choseShipment form-check col--2"lg>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        pick up
+                    </label>
+                  </div>
+                  <div class="choseShipment form-check col-lg-3">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Ship to address
+                    </label>
+                  </div>
+            </div>            
+            
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                <textarea class="addDescription form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            
+
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="/img/img_addSwap_05.png" alt="" class="img-fluid">                
                 </div>
-                <div class="col-6">
-                    <img src="/img/img_addSwap_04.png" alt="">                
+                <div class="col-sm-6">
+                    <img src="/img/img_addSwap_04.png" alt="" class="img-fluid">                
                 </div>
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-3">
-                            <img src="/img/img_addSwap_03.png" alt="">
+                        <div class="col-sm-3">
+                            <img src="/img/img_addSwap_03.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-3">
-                            <img src="/img/img_addSwap_03.png" alt="">
+                        <div class="col-sm-3">
+                            <img src="/img/img_addSwap_03.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-3">
-                            <img src="/img/img_addSwap_03.png" alt="">
+                        <div class="col-sm-3">
+                            <img src="/img/img_addSwap_03.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-3">
-                            <img src="/img/img_addSwap_03.png" alt="">
+                        <div class="col-sm-3">
+                            <img src="/img/img_addSwap_03.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
