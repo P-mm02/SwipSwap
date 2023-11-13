@@ -4,7 +4,8 @@
     padding-left: 2vw;
     font-size: 30px;
     padding-right: 2vw;
-        
+    padding-bottom: 3vh;
+    z-index: 2;
 }
 .nav-item{
     color: #fff;
@@ -29,6 +30,7 @@
     align-items: center;
     position: fixed;
     
+    
 }
 #swapThisForThat{
     margin-top: -10px
@@ -48,7 +50,7 @@
 }
 }
 .topBackground{
-    background-color: #8BA2E0;    
+    background-color: #8BA2E0;  
 }
 #addButton{
     background: none;
@@ -59,4 +61,84 @@
 }
 #addButton:hover{
     background: #4e66a9;
+}
+
+#container-down{
+    height: auto;
+    width: auto;
+    border: 2px solid red;
+    margin: 30vh 5vw 0vw 5vw;
+    
+}
+
+.hotSwap{
+    
+    width: 445px;
+    height: 448px;    
+}
+.hotSwap:hover{
+    border: 2px solid #8BA2E0;
+    cursor: pointer;   
+}
+.hotSwapCon{
+    border: 2px solid rgb(39, 199, 84);
+    justify-content: space-around;
+}
+
+.btn-looking{
+    border-radius: 15px;
+    background-color: #fff;
+}
+.btn-looking:hover{
+    background-color: #8BA2E0;
+}
+
+.itemNameEdit{
+    font-size: 22px;
+    font-weight: bold;
+    color: #213360;
+
+}
+.itemConditionEdit{
+    font-size: 22px;
+    color: #213360;
+
+}
+.itemLookingEdit{
+    font-size: 22px;
+    color: #213360;
+}
+.conditionDp{
+    font-size: 22px;
+    color: #5CB248;
+    font-weight: bold;
+
+}
+
+.itemInfo{
+    width:1200px;
+    height: 756px;
+    background-color: #707ea2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    visibility: visible;
+    z-index: 5;
+}
+@media screen and (max-width: 1200px) {
+    .itemInfo {
+    width: 90vw;
+    height: auto;      
+    }
+}
+
+.leftLine{
+    border-left: 1px solid black;
+}
+.buttomLine{
+    border-bottom: 1px solid black;
+    margin-right: 2vw;
+    margin-left: 1vw;
 }
