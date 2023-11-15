@@ -44,3 +44,13 @@
 .profileList a.active{
     color: #F99746;
 }
+
+.editProfileInput{
+    color: #D3D3D3;
+}
+.editProfileInput label{
+    margin-top: 20px;
+}
+.editProfileInput input , textarea{
+    margin-top: 10px;
+}

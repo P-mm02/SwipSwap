@@ -5,6 +5,10 @@ var myProduct = document.getElementById('myProduct');
     var editProfile = document.getElementById('editProfile');
     myProduct.style.backgroundColor = '#fff';
     editProfile.style.backgroundColor = 'transparent';
+    var myProductList = document.getElementById('myProductList');
+    myProductList.style.display = 'block';
+    var editProfileList = document.getElementById('editProfileList');
+    editProfileList.style.display = 'none';
 });
 var editProfile = document.getElementById('editProfile');
   // Add a click event listener to the image
@@ -13,6 +17,10 @@ var editProfile = document.getElementById('editProfile');
     var myProduct = document.getElementById('myProduct');
     editProfile.style.backgroundColor = '#fff';
     myProduct.style.backgroundColor = 'transparent';
+    var myProductList = document.getElementById('myProductList');
+    myProductList.style.display = 'none';
+    var editProfileList = document.getElementById('editProfileList');
+    editProfileList.style.display = 'block';
     
 });
 

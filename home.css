@@ -146,6 +146,11 @@ body{
     margin-right: 2vw;
     margin-left: 1vw;
 }
+.buttomLine2{
+    border-bottom: 1px solid #AFAFAF;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
 
 .interestingList{
     margin-left: 2vw;
