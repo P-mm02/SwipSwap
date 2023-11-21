@@ -1,0 +1,19 @@
+.fa-star{
+    color: #e4e6ed;
+}
+.fa-star:hover{
+    color: #fbc77f;    
+}
+#userRatingCLick:hover{
+    cursor: pointer;
+}
+#userRatingCtn{
+    position: fixed;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40vh;
+    width: 40vh;
+    display: none;    
+}
